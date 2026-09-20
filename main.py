@@ -34,8 +34,11 @@ result = odr_fit(
 )
 
 a,b,c = result.beta
+da,db,dc = result.sd_beta
 print("Parameter values: ")
 print(a,b,c)
+print("Parameter uncertainties: ")
+print(da,db,dc)
 
 xfit = np.linspace(min(x),max(x),500) # Even sample of x-values in domain
 yfit = dexp(xfit, result.beta) # Plug x-values into regressed function

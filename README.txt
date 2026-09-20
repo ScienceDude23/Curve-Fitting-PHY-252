@@ -11,5 +11,7 @@ The main.py file runs the actual regression using the odrpack package to
 perform an orthogonal distance regression on the dataset
     I found the fitted parameters (a,b,c) to be
     (3.3443921514117605, 0.049998683094403716, 1.5905831034446964)
+    with uncertainties
+    (5.499573245788786e-05, 9.075896712340517e-07, 4.624268484261205e-06)
 
     The regression.png file is the output of main.py
